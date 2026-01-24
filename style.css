@@ -10,11 +10,11 @@ body {
     color: white;
 }
 
-#logo  a h1{
+#logo a h1 {
     transition: all ease-in-out 0.5s;
 }
 
-#logo a h1:hover{
+#logo a h1:hover {
     color: aqua;
 }
 
@@ -43,38 +43,38 @@ a {
 }
 
 #nav-links li a {
-  text-decoration: none;
-  color: #cbd5f5;
-  font-size: 16px;
-  transition: 0.3s;
-  position: relative;   
+    text-decoration: none;
+    color: #cbd5f5;
+    font-size: 16px;
+    transition: 0.3s;
+    position: relative;
 }
 
- 
+
 #nav-links li a::after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background: #ffffff;
-  left: 0;
-  bottom: -6px;
-  transition: width 0.4s ease;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.4s ease;
 }
 
 #nav-links li a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 #nav-links li a:hover::after {
-  width: 100%;
+    width: 100%;
 }
 
 
 #nav-button a button {
     padding: 7px 14px;
     border-radius: 15px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     font-weight: 600;
     transition: all ease-in-out 0.5s;
@@ -85,3 +85,5 @@ a {
     color: black;
 
 }
+
+/* hero */
