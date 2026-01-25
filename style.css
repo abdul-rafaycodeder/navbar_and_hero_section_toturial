@@ -121,3 +121,11 @@ a {
     width: 330px;
     border-radius: 30px;
 }
+
+
+/* <!-- marquee --> */
+
+marquee{
+    margin-top: 50px;
+    font-size: 60px;
+}
